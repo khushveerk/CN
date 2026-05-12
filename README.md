@@ -90,3 +90,15 @@ Destination filename [startup-config]? { press enter}
 
 Building configuration...
 [OK]
+
+# To Implement Connection Between Devices Using router 
+## give ips to pcs and router 
+
+Left network PCs: 
+PC6 → 192.168.1.2
+PC7 → 192.168.1.3
+
+Right network PCs:
+PC8 → 192.168.2.2
+PC9 → 192.168.2.3
+
