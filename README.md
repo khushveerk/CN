@@ -92,7 +92,7 @@ Building configuration...
 [OK]
 
 # To Implement Connection Between Devices Using router 
-## give ips to pcs and router 
+## give ips to pcs and router and ACCESS THE ROUTER CLI- 
 
 Left network PCs: 
 PC6 → 192.168.1.2
