@@ -95,12 +95,16 @@ Building configuration...
 ## give ips to pcs and router and ACCESS THE ROUTER CLI- 
 
 Left network PCs: 
-PC6 → 192.168.1.2
-PC7 → 192.168.1.3
+
+PC1 → 192.168.1.2
+
+PC2 → 192.168.1.3
 
 Right network PCs:
-PC8 → 192.168.2.2
-PC9 → 192.168.2.3
+
+PC3 → 192.168.2.2
+
+PC4 → 192.168.2.3
 
 Router(config-if)#
 
