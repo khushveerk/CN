@@ -28,4 +28,42 @@ Building configuration...
 
 # perform intial switch config.  
 ## access the router cli and -
+Router> enable
 
+Router# configure terminal
+
+Router (config)# hostname R1
+
+R1 (config)# enable secret class123
+
+R1 (config)# line console 0
+
+R1 (config-line)# password cisco
+
+R1 (config-line)# login
+
+R1 (config-line)# exit
+
+R1 (config)# line vty 0 15
+
+R1 (config-line)# password cisco
+
+R1 (config-line)# login
+
+R1 (config-line)# exit
+
+R1 (config)# banner motd #Authorized Access Only#
+
+R1 (config)# interface gigabitEthernet 0/0
+
+R1 (config-if)# ip address 192.168.1.1 255.255.255.0
+
+R1 (config-if)# no shutdown
+
+R1(config-if)# exit
+
+R1 (config)# exit
+
+then to Save the configuration:
+
+S1# copy running-config startup-config
