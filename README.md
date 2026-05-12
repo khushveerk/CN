@@ -102,3 +102,38 @@ Right network PCs:
 PC8 → 192.168.2.2
 PC9 → 192.168.2.3
 
+Router(config-if)#
+
+Router#
+
+Router#config
+
+Configuring from terminal, memory, or network [terminal]? terminal
+
+Enter configuration commands, one per line. End with CNTL/2.
+
+Router(config)#interface g0/0
+
+Router (config-if)#ip address 192.168.1.11 255.255.255.0
+
+Router(config-if)#no shutdown
+
+Router(config-if)#exit
+
+Router(config-if)#
+
+Router#
+
+Router#config
+
+Configuring from terminal, memory, or network [terminal]? terminal Enter configuration commands, one per line. End with CNTL/Z.
+
+Router(config)#interface g0/1
+
+Router (config-if)#ip address 192.168.2.10 255.255.255.0
+
+Router (config-if)#no shutdown
+
+Router (config-if)#exit
+
+Router (config)#
