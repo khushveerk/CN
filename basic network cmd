@@ -1,0 +1,11 @@
+# basic network cmds 
+1. netstat -h
+2. nslookup google.com
+3. ping www.google.com
+4. route print
+5. arp -a
+6. tracert google.com
+7. hostname
+8. ipconfig
+9. systeminfo
+    
